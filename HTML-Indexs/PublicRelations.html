@@ -7,45 +7,337 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Criticisms and Suggestions</title>
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
-  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/Public Relations.css">
 </head>
 <body>
-<header>
-
-</header>
-<main>
-  <form class="container-fluid">
-    <h4 style="font-family: Vazir-Medium; text-align: center; margin-top: 50px">Send Your Comments And Suggestions</h4>
-      <div class="row">
-          <div class="col-12" style="width: 100%;font-family: Vazir-Medium">
-              <input  style="display: block; width: 60%;height: 57px; margin: 0 auto; margin-top: 40px;font-size: 18px" type="text" placeholder=" Name & Last Name : *" required/>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="nav__Logo"
+              src="../resources/images/Atrina Rah Ata-Image-1.png" alt="logo">
+          </a>
+          <form action="#" class="searchform order-sm-start order-lg-last">
+            <div class="form-group d-flex">
+              <input type="search" class="form-control" placeholder="Search">
+              <i class="fa fa-search p-2 mx-1"></i>
+            </div>
+          </form>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span> Menu
+          </button>
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav m-auto p-2">
+              <li class="nav-item active"><a href="../root/index.html" class="nav-link">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown04"
+                  data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="../HTML-Indexs/AirPlanePage.html">Airplane
+                    Transportation</a>
+                  <a class="dropdown-item" href="../HTML-Indexs/OceanTransportation.html">Ocean
+                    Transportation</a>
+                  <a class="dropdown-item" href="../HTML-Indexs/TruckTransportation.html">TruckTransportation</a>
+                </div>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+              <li class="nav-item"><a href="../HTML-Indexs/Public Relations.html"
+                  class="nav-link">Public Relations</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+              <li class="nav-item">
+                <a href class="nav-link"><img
+                    src="../resources/images/favicon-16x16.png" alt="Country Flag"
+                    height="30" class="ml-2"></a>
+              </li>
+            </ul>
           </div>
-          <div class="row" style="position: relative; bottom: 15px">
-              <div class="col-6 d-flex justify-content-end" style="font-family: Vazir-Medium">
-                  <input  style="display: inline-block; width: 60%;height: 57px; margin: 0 auto; margin-top: 40px;font-size: 18px;position: relative;left: 156px" type="email" placeholder=" E-mail : *" required/>
-              </div>
-              <div class="col-6 d-flex justify-content-start" style="font-family: Vazir-Medium">
-                  <input  style="display: inline-block; width: 60%;height: 57px; margin: 0 auto; margin-top: 40px;font-size: 18px;position: relative;right: 131px" type="tel" placeholder=" Tel Number : *" required/>
-          </div>
-              <div class="col-12" style="width: 100%;font-family: Vazir-Medium">
-                  <br>
-                  <input  style="display: block; width: 61.3%;height: 57px; margin: 0 auto;font-size: 18px;position: relative;left: 15px" type="text" placeholder=" Subject : *" required/>
-              </div>
-              <div class="col-12">
-                  <br>
-                  <textarea style="display: block; width: 61.3%;height: 172px; margin: 0 auto;font-size: 18px;position: relative;left: 15px" required placeholder=" Description : *"></textarea>
-              </div>
-      </div>
-      </div>
-      <div class="row">
-          <button type="submit" class="btn btn-primary" style="width: 10%;height: 50px;font-family:Vazir-Medium;font-size: 23px; margin: 0 auto;"> save </button>
-      </div>
-  </form>
-</main>
-<footer>
+        </div>
+      </nav>
+      <!-- End nav -->
 
-</footer>
-<script src="../bootstrap/js/bootstrap.bundle.js"></script>
-<script src="../scripts/script.js" defer></script>
+      <section class="ftco-section">
+		<div class="container">
+			
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Get in touch</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">Email Address</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="subject">Subject</label>
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="#">Message</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn mt-4 btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap bg-primary w-100 p-md-5 p-4">
+									<h3>Let's get in touch</h3>
+									<p class="mb-4">We're open for any suggestion or just to have a chat</p>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-mailbox"></span>
+				        		</div>
+				        		<div class="text pl-3 mt-2 px-2">
+					            <p><span>Email :</span><a href="P.r@bslshipping.com" class="text-white">P.r@bslshipping.com</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text pl-3 mt-3 px-2">
+					            <p><span>Whatsapp:</span> 09912068728</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text pl-3  mt-3 px-2">
+					            <p><span>Telegram:</span> 09912068728</p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-globe"></span>
+				        		</div>
+				        		<div class="text pl-3  mt-3 px-2">
+					            <p><span>Tel</span>( 150 )02142287</p>
+					          </div>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <main>
+        <section class="d-flex pt-5 flex-wrap justify-content-center gap-5 p2__Contact mt-5 p-3">
+            <div class="w-50">
+              <h2>WE ARE READY TO SHIP YOUR PRODUCTS TO ANYWHERE IN THE WORLD!</h2>
+              <p>Sea, Air and Rail service, deliver products to all over the world in the fastest possible time and at the lowest cost</p>
+            </div>
+            <div class="">
+              <button type="button" value="Contact Us" class="btn btn-primary"><a href="" class="text-white">Contact Us</a></button>
+            </div>
+          </section>
+    </main>
+    <footer class="text-center text-lg-start footer">
+        <section>
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row p-5">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+                        <p>
+                            The BSL group with over 5 decades of continuous
+                            and successful work in the field of Commerce,
+                            Transportation and International Trade and
+                            consisting of a multidisciplinary staff of
+                            expert logistics professionals of various
+                            nationalities, ready to serve a comprehensive
+                            and professional service In the whole process of
+                            supply chain, all merchants and customers are
+                            cherished. Here is a brief overview of the
+                            capabilities of the blue sea star in the field
+                            of international trade:
+                        </p>
+                        <ul>
+                            <li>Complete removal of sanctions barriers</li>
+                            <li>Ability to establish business relations with
+                                other countries despite sanctions</li>
+                            <li>Intermediation in the purchase of goods from
+                                foreign sellers</li>
+                            <li>Possibility of doing all the business of
+                                buying and exporting goods from foreign
+                                countries</li>
+                            <li>Having valid international accounts to
+                                facilitate foreign trade</li>
+  
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+  
+                    <!-- Grid column -->
+                    <div
+                        class="col mb-4 justify-content-center">
+                        <!-- Links -->
+                        <div class="row d-grid logo justify-content-center">
+                            <img src="../resources/images/logo.jpg" alt
+                                style="border-radius: 10px">
+                        </div>
+  
+                        <div class="d-flex justify-content-around mt-5 link__style">
+                            <div>
+                                <h6 class="fw-bold mb-4 text-white">
+                                    Fast Links
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">ABOUT
+                                        BSL</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset p-1">BlOG</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset p-1">BSL
+                                        OFFICIAL
+                                        OFFICES</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset p-1">CONTACT
+                                        US</a>
+                                </p>
+                            </div>
+                            <div class="link__style">
+                                <h6 class="fw-bold mb-4 text-white">
+                                    Our Services
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">
+                                        AIR TRANSPORTATION
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset p-1">GROUND
+                                        TRANSPORTATION</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset p-1">
+                                        MARITIME TRANSPORTATION
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset p-1">
+                                        RAILROAD TRANSPORTATION
+                                    </a>
+                                </p>
+                            </div>
+  
+                        </div>
+  
+                    </div>
+  
+                    <div
+                        class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="fw-bold mb-4 text-white">Contact US</h6>
+  
+                        <p><i
+                                class="fa-sharp fa-light fa-location-crosshairs text-white">
+  
+                            </i> Address:
+                        </p>
+                        Motahhari St., above Mofteh - No. 161 - Ground
+                        floor
+  
+                        <p>
+                            <p><i class=" text-white fa-light fa-clock-two"></i>
+                                Maritime Office:</p>
+                            Sunday to Thursday 9 to 15 -
+                            Closed on Saturdays
+                            <p>Airline: Saturday to Wednesday 9 to 15 -
+                                Thursday 9 to 12</p>
+                            <p> Bandar Abbas Office: Saturday to Wednesday
+                                7:30
+                                to 15:00 - Thursday 7:30 to 12:00</p>
+  
+                        </p>
+  
+                        <p class="text-primary"><i
+                                class="fas fa-phone me-3 text-white"></i>
+                            +98 21 42287</p>
+                        <p>
+                            <i class="fas fa-envelope me-3 text-white"></i>
+                            info@bslshipping.com
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3 text-white"></i>
+                            info@bslexpress.net
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <section
+            class="d-flex justify-content-center  p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+  
+            <div>
+                <a href class="me-4 text-reset">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href class="me-4 text-reset">
+                    <i class="fa-brands fa-pinterest"></i>
+                </a>
+            </div>
+  
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4"
+            style="background-color:#1C1C1C; color: #6B6B6B;">
+            © 2023 All rights reserved for BSL Company.
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+ 
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../scripts/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
