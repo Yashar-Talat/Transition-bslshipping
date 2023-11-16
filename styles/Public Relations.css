@@ -1,0 +1,6 @@
+@font-face {
+    font-family: Vazir-Medium;
+    src: url("../resources/fonts/English/Vazir/Medium/Vazir-Medium.ttf") format("truetype"),
+    url("../resources/fonts/English/Vazir/Medium/Vazir-Medium.woff") format("woff"),
+    url("../resources/fonts/English/Vazir/Medium/Vazir-Medium.woff2") format("woff2");
+}

@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url(../Icon/fontawesome-pro-6.1.1-web/css/all.min.css);
+*{
+    direction: ltr;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+h6 {
+    font-size: 14px;
+}
+i {
+    font-size: 24px;
+}
+body {
+    max-height: 100vh;
+}
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.55);
+}
+.dropdown-item:hover {
+    background-color: #212529;
+    color: #ffffff;
+}
+.dropdown-menu {
+    background-color:#212529;
+}
+.footer {
+    background-color:#1C1C1C;
+    color: #999999;
+    font-size: 13px;
+}
+
+.text__hover>p {
+    border-bottom: 1px solid #393838;
+    transition: all .3s ease-in;
+}
+.text__hover>P:hover {
+    border-bottom: 1px solid rgb(6, 11, 165);
+}
+.text__color>li {
+    color: #0dcaf0 !important;
+}
+.fa-youtube:hover {
+    color: red;
+}
+.fa-linkedin:hover {
+    color: rgb(39, 39, 187);
+}
+.fa-pinterest:hover{
+    color: darkorange;
+}
+.fa-search {
+    color: #fff;
+}
+a {
+    color: #18272F;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #0ba3f6;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  .nav-link:hover {
+    color: #ffffff;
+  }
+.navbar-items-content{
+    font-size: 16px;
+    padding-top: 16px;
+    color: black;
+    text-shadow: 1px 1px 15px #4DD0E1;
+}
+.navbar-items-content:hover{
+    padding-top: 4px;
+    border-bottom: 3px solid #000a50;
+    color: #0dcaf0;
+}
+.navbar-items-content:active{
+    color: darkblue;
+}
+.nav__Logo {
+    width: 150px;
+    height: 100px;
+}
+
+
+#search-in-nav{
+    color: #FFF;
+    background-color: #1c1c1c;
+    position: relative;
+    border: none;
+    font-size: 12px;
+    font-family: IRANYekan !important;
+    font-style: italic;
+    margin: 0;
+    display: inline-block;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    padding: 2px 30px 2px 15px;
+    border-radius: 3px;
+    height: 34px;
+    transition: all .15s ease-out;
+    overflow: visible;
+    line-height: 1.15;
+}
+#searchsubmit{
+    color: hsla(0,0%,100%,.4);
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 7px 0 0 0 ;
+    display: inline-block;
+    height: 46px;
+    line-height: 14px;
+    vertical-align: center;
+    margin-top: -8px;
+    outline: none;
+
+}
+#box {
+    color: #fff;
+    width: 85%;
+    height: 265px;
+    background-color: #15155f;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 18px #0dcaf0;
+}
+.text-box{
+    font-size: 13px;
+}
+.special-text-box{
+    font-size: 14px;
+}
+#call-us{
+    color: white;
+    background-color: #1AB7EA;
+    width: 180px;
+    height: 65px;
+    font-size: 19px;
+}
+#explain-text{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 9px;
+}
+#underline{
+    background-color: #000a50;
+    width: 4%;
+    height: 4px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+#first-image{
+    width: 330px;
+    height: 440px;
+    border-radius: 15px;
+    background-color: #000000;
+    background-image: url("../resources/images/shutterstock_1031173342.jpg");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin-left: 15px;
+    box-shadow: 1px 1px 35px 3px #90A4AE;
+}
+#first-image:hover{
+    opacity: 75%;
+}
+#second-image{
+    width: 550px;
+    height: 440px;
+    border-radius: 15px;
+    background-color: #000000;
+    background-image: url("../resources/images/4295.jpg");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin-left: 15px;
+    box-shadow: 1px 1px 35px 2px #26C6DA;
+}
+#second-image:hover{
+    opacity: 75%;
+}
+#third-image{
+    width: 330px;
+    height: 440px;
+    border-radius: 15px;
+    background-color: #000000;
+    background-image: url("../resources/images/آشنایی-با-انواع-کامیون-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin-left: 15px;
+    box-shadow: 1px 1px 35px 1px #8D6E63;
+}
+#third-image:hover{
+    opacity: 75%;
+}
+#another-div{
+    width: 100%;
+    height: 560px;
+    margin-top: 70px;
+    background-image: url("../resources/images/world-map.png");
+    padding-left: 52px;
+    padding-right: 43px;
+}
+#messageFormDiv
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-bottom: 160px;
+}
+#messageFormDiv .box
+{
+    position: relative;
+    width: 450px;
+    height: 612px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#messageFormDiv .box::before
+{
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg,transparent,darkblue,darkblue);
+    animation: animate 6s linear infinite;
+}
+#messageFormDiv .box::after
+{
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 500px;
+    height: 700px;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg,transparent,darkblue,darkblue);
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+#messageFormDiv form
+{
+    position: absolute;
+    inset: 2px;
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+#messageFormDiv h2
+{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+#messageFormDiv .inputBox
+{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#messageFormDiv .inputBox input
+{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+#messageFormDiv .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: #8f8f8f;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+#messageFormDiv .inputBox input:valid ~ span,
+#messageFormDiv .inputBox input:focus ~ span
+{
+    color: blue;
+    transform: translateX(0px) translateY(-34px);
+    font-size: 0.75em;
+}
+#messageFormDiv .inputBox i
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: blue;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+}
+#messageFormDiv .inputBox input:valid ~ i,
+#messageFormDiv .inputBox input:focus ~ i
+{
+    height: 44px;
+}
+#messageFormDiv input[type="submit"]
+{
+    border: none;
+    outline: none;
+    padding: 11px 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 10px;
+}
+#messageFormDiv input[type="submit"]:active
+{
+    opacity: 0.8;
+}
+.submitColor{
+    position: relative;
+    background-color: #2836FFFF;
+    color: white;
+    top: 25px;
+    left: auto;
+    right: auto;
+}
+.submitColor:hover{
+    background-color: white;
+    border: 1px solid darkblue;
+    color: darkblue;
+    transition: all 250ms ease-in;
+}
+#textAreaInMessageForm{
+    padding: 5px;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 50px;
+
+}
+.select-box{
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 100%;
+    color: white;
+    background-color: #2836ff;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.select-container .icon-container{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-underline{
+    background-color: #000a50;
+    width: 7%;
+    height: 4px;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+#another-div2{
+    width: 100%;
+    height: 560px;
+    margin-top: 70px;
+    background-image: url("../resources/images/world-map.png");
+    padding-left: 52px;
+    padding-right: 43px;
+    position: relative;
+    bottom: 25px;
+}
+#bestChoiseContainer{
+    width: 100%;
+    height: 553px;
+    background-color: #000a50;
+    position: relative;
+    bottom: 160px;
+}
+#first-underline{
+    background-color: #0dcaf0;
+    width: 11%;
+    height: 4px;
+    border-radius: 5px;
+    margin-left: 652px;
+}
