@@ -8,542 +8,691 @@
         <link rel="stylesheet" href="../styles/style.css">
     </head>
     <body>
-        <header>
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                          <img class="nav__Logo" src="../resources/images/Atrina Rah Ata-Image-1.png" alt="logo">
-                    </a>
-                    <form action="#" class="searchform order-sm-start order-lg-last">
-                  <div class="form-group d-flex">
-                    <input type="search" class="form-control" placeholder="Search">
-                    <i class="fa fa-search p-2 mx-2"></i>
-                  </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="nav__Logo"
+                        src="../resources/images/Atrina Rah Ata-Image-1.png"
+                        alt="logo">
+                </a>
+                <form action="#" class="searchform order-sm-start order-lg-last">
+                    <div class="form-group d-flex">
+                        <input type="search" class="form-control"
+                            placeholder="Search">
+                        <i class="fa fa-search p-2 mx-1"></i>
+                    </div>
                 </form>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-white" type="button"
+                    data-toggle="collapse"
+                    data-target="#ftco-nav" aria-controls="ftco-nav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="fa fa-bars"></span> Menu
-                  </button>
-                  <div class="collapse navbar-collapse" id="ftco-nav">
+                </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav m-auto p-2">
-                        <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item active"><a href="../root/index.html"
+                                class="nav-link">Home</a></li>
                         <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                      <div class="dropdown-menu" aria-labelledby="dropdown04">
-                          <a class="dropdown-item" href="../HTML-Indexs/AirPlanePage.html">Airplane Transportation</a>
-                        <a class="dropdown-item" href="../HTML-Indexs/OceanTransportation.html">Ocean Transportation</a>
-                        <a class="dropdown-item" href="../HTML-Indexs/TruckTransportation.html">TruckTransportation</a>
-                      </div>
-                    </li>
-                        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="../HTML-Indexs/PublicRelations.html" class="nav-link">Public Relations</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="dropdown04"
+                                data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Services</a>
+                            <div class="dropdown-menu"
+                                aria-labelledby="dropdown04">
+                                <a class="dropdown-item"
+                                    href="../HTML-Indexs/AirPlanePage.html">Airplane
+                                    Transportation</a>
+                                <a class="dropdown-item"
+                                    href="../HTML-Indexs/OceanTransportation.html">Ocean
+                                    Transportation</a>
+                                <a class="dropdown-item"
+                                    href="../HTML-Indexs/TruckTransportation.html">TruckTransportation</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">About
+                                Us</a></li>
+                        <li class="nav-item"><a
+                                href="../HTML-Indexs/PublicRelations.html"
+                                class="nav-link">Public Relations</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact
+                                Us</a></li>
                         <li class="nav-item">
-                            <a href="" class="nav-link"><img src="../resources/images/favicon-16x16.png" alt="Country Flag" height="30" class="ml-2"></a>
+                            <a href class><img
+                                    src="../resources/images/favicon-16x16.png"
+                                    alt="Country Flag"
+                                    height="30" class="ml-2"></a>
                         </li>
                     </ul>
-                  </div>
                 </div>
-              </nav>
-            <div id="carouselExampleInterval" class="carousel slide w-100 h-25"
-                data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="../resources/images/430119.jpg"
-                            class="d-block w-100" alt="..." style="height: 85vh">
-                        <div class="carousel-caption rounded rounded-2">
-                            <h3>Los Angeles</h3>
-                            <p>We had such a great time in LA!</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="../resources/images/678960.jpg"
-                            class="d-block w-100" alt="..." style="height: 85vh">
-                        <div class="carousel-caption rounded rounded-2">
-                            <h3>Los Angeles</h3>
-                            <p>We had such a great time in LA!</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="../resources/images/2.jpg" class="d-block w-100"
-                            alt="..." style="height: 85vh">
-                        <div class="carousel-caption rounded rounded-2">
-                            <h3>Los Angeles</h3>
-                            <p>We had such a great time in LA!</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button"
-                    data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"
-                        style="width: 70px; height: 70px"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button"
-                    data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"
-                        style="width: 70px; height: 70px"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </header>
+        </nav>
+
         <main>
-            <div class="row d-flex justify-content-evenly" id="box">
-                <div class="col-3">
-                    <img src="../resources/images/ساعت-کاری.png" width="35px"
-                        height="35px" style="margin: 10px" alt="calendar">
-                    <h5 class="fw-semibold" id="working-time"
-                        style="display: inline">
-                        working time
-                    </h5>
-                    <div style="width: 80%">
-                        <p class="text-box">
-                            <span class="special-text-box">Maritime Office</span>
-                            : Sunday to Thursday 9 to 15 - Closed on Saturdays
-                        </p>
-                        <p class="text-box">
-                            <span class="special-text-box">Airline</span> :
-                            Saturday to Wednesday 9 to 15 - Thursday 9 to 12
-                        </p>
-                        <p class="text-box">
-                            <span class="special-text-box">Bandar Abbas Office</span>
-                            : Saturday to Wednesday 7:30 to 15:00 - Thursday
-                            7:30 to 12:00
-                        </p>
+            <section>
+                <section class="d-flex">
+                    <div id="carouselExampleInterval"
+                        class="carousel slide w-100 h-25 d-flex"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"
+                                data-bs-interval="3000">
+                                <img src="../resources/images/430119.jpg"
+                                    class="d-block w-100 img-fluid" alt="..."
+                                    style="height: 85vh">
+                                <div class="carousel-caption rounded rounded-2">
+                                    <h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../resources/images/678960.jpg"
+                                    class="d-block w-100" alt="..."
+                                    style="height: 85vh">
+                                <div class="carousel-caption rounded rounded-2">
+                                    <h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../resources/images/2.jpg"
+                                    class="d-block w-100"
+                                    alt="..." style="height: 85vh">
+                                <div class="carousel-caption rounded rounded-2">
+                                    <h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                                style="width: 70px; height: 70px"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                aria-hidden="true"
+                                style="width: 70px; height: 70px"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                </div>
-                <div class="col-3">
-                    <img src="../resources/images/ارتباط-با-ما.png" width="35px"
-                        height="35px" style="margin: 10px" alt="headphone">
-                    <h5 class="fw-semibold" id="contact us"
-                        style="display: inline">
-                        contact us
-                    </h5>
-                    <div style="width: 80%;margin-left: 24px">
-                        <p class="text-box">
-                            <span class="special-text-box">Phone</span> :
-                            +9821-42287
-                        </p>
-                        <p class="text-box">
-                            <span class="special-text-box">Fax</span> :
-                            +9821-57806999
-                        </p>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <img src="../resources/images/ایمیل-1.png" width="35px"
-                        height="35px"
-                        style="margin-top: 10px;margin-left: 10px;margin-right: 10px;margin-bottom: 15px"
-                        alt="email" />
-                    <h5 class="fw-semibold" id="email" style="display: inline">
-                        email
-                    </h5>
-                    <div style="width: 80%;margin-left: 6px">
-                        <p class="text-box">
-                            <span class="special-text-box">info@bslshipping.com</span>
-                        </p>
-                        <p class="text-box">
-                            <span class="special-text-box">info@bslexpress.net</span>
-                        </p>
-                    </div>
-                </div>
-                <div
-                    class="col-3 d-flex justify-content-center align-items-center">
-                    <button class="fw-semibold btn" id="call-us">
-                        Call us
-                    </button>
-                </div>
-            </div>
-            <div>
-                <br>
-                <div class="d-flex justify-content-center align-items-center">
-                    <span class="text text-muted fw-semibold fs-5">welcome</span>
-                </div>
-                <div>
-                    <p
-                        class="fw-bold fs-2 d-flex justify-content-center align-items-center">
-                        <span style="color:black">International Shipping of Blue
-                            Sea Stars</span>
-                    </p>
-                    <div id="underline">
-                        <hr>
-                    </div>
-                </div>
-                <div>
-                    <p
-                        class="fs-6 d-flex justify-content-center align-items-center"
-                        id="explain-text">
-                        <span>Blue Star as one of the oldest international
-                            shipping companies with over two decades of
-                            experience adhering to the principles of freight
-                            according to domestic and international laws and
-                            regulations and providing various services has
-                            managed to keep up with Become one of the strongest
-                            and most specialized shipping companies
-                            internationally. Blue Star Sea Company is one of the
-                            specialized authorities in the field of sea
-                            transportation, land transportation, air
-                            transportation and rail transportation. You can
-                            choose one of the above ways to ship your goods to
-                            Iran or vice versa with the advice of our experts.
-                            BSL's professional staff is ready to help your loved
-                            ones</span>
-                    </p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center"
-                style="margin-top: 50px;">
-                <br>
-                <div
-                    class="col-3 d-flex justify-content-center align-items-center"
-                    id="first-image">
-                    <a href="../HTML-Indexs/AirPlanePage.html">
-                        <img src="../resources/images/آیکون-هواپیما-2.png"
-                            width="120px" height="103px" alt="AirPlane">
-                        <p
-                            style="color: white; font-size: 25px; padding-top: 60px">
-                            AirPlane
-                        </p>
-                    </a>
-                </div>
-                <div
-                    class="col-5 d-flex justify-content-center align-items-center"
-                    id="second-image">
-                    <a href="../HTML-Indexs/OceanTransportation.html">
-                        <img src="resources/images/آیکون-کشتی-3.png"
-                            width="120px" height="103px" alt="ship">
-                        <p
-                            style="color: white; font-size: 25px; padding-top: 25px">
-                            Ocean transportation
-                        </p>
-                    </a>
-                </div>
-                <div class="col-3" id="third-image">
+                </section>
+                <section class="container">
                     <div
-                        class="d-flex justify-content-center align-items-center"
-                        style="margin-top: 150px">
-                        <img src="../resources/images/آیکون-قطار-12.png"
-                            width="120px" height="103px">
-                    </div>
-                    <div class="d-flex justify-content-center align-items-end">
-                        <p style="color: white; font-size: 25px">
-                            truck transportation
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div id="another-div">
-                <div
-                    class="row d-flex justify-content-center align-items-center">
-                    <div class="col-4 p-5">
-                        <img src="../resources/images/moshavere.png" width="50px"
-                            height="50px" alt="moshavereh">
-                        <p style="display: inline" class="ps-3">
-                            <span class="fw-bold"
-                                style="color: black; font-size: 17px;position: relative;top: 10px">Business
-                                Consulting</span><br>
-                        </p>
-                        <p style="font-size: 13px">
-                            <span>Providing international export, import and
-                                trade advice to</span> <br> <span>manufacturers,
-                                traders and traders on export and import</span>
-                        </p>
-                    </div>
-                    <div class="col-4 p-5">
-                        <img src="../resources/images/haml.png" width="50px"
-                            height="50px" alt="haml">
-                        <p style="display: inline" class="ps-3">
-                            <span class="fw-bold"
-                                style="color: black; font-size: 17px;position: relative;top: 6px">Transportation</span><br>
-                        </p>
-                        <p style="font-size: 13px">
-                            <span>Shipment of goods by air, sea and land in the
-                                form of cargo </span> <br> <span>and containers</span>
-                        </p>
-                    </div>
-                    <div class="col-4 p-5">
-                        <img src="../resources/images/tarkhis.png" width="50px"
-                            height="50px" alt="tarkhis">
-                        <p style="display: inline" class="ps-3">
-                            <span class="fw-bold"
-                                style="color: black; font-size: 17px;position: relative;top: 10px">Clearance</span><br>
-                        </p>
-                        <p style="font-size: 13px">
-                            <span>Preparing and filing documents and calculating
-                                costs including </span> <br> <span>tax,
-                                commercial interest and customs duties and other
-                                facilities</span><br><span> provided</span>
-                        </p>
-                    </div>
-                </div>
-                <div
-                    class="row d-flex justify-content-center align-items-center">
-                    <div class="col-4 p-5">
-                        <img src="../resources/images/kharid.png" width="50px"
-                            height="50px" alt="kharid">
-                        <p style="display: inline" class="ps-3">
-                            <span class="fw-bold"
-                                style="color: black; font-size: 17px;position: relative;top: 10px">Sourcing
-                                and shopping</span><br>
-                        </p>
-                        <p style="font-size: 13px">
-                            <span>Finding a Foreign Supplier and Supplier
-                                (Supplier)</span>
-                        </p>
-                    </div>
-                    <div class="col-4 p-5">
-                        <img src="../resources/images/door-to-door.png"
-                            width="50px" height="50px" alt="door-to-door">
-                        <p style="display: inline" class="ps-3">
-                            <span class="fw-bold"
-                                style="color: black; font-size: 17px;position: relative;top: 10px">Door
-                                to Door Services</span><br>
-                        </p>
-                        <p style="font-size: 13px">
-                            <span>Carrying out all tasks of purchasing shipment
-                                and clearance from </span> <br> <span>place of
-                                production to customer's desired place</span>
-                        </p>
-                    </div>
-                    <div class="col-4 p-5">
-                        <img src="../resources/images/gear.png" width="50px"
-                            height="50px" alt="gear">
-                        <p style="display: inline" class="ps-3">
-                            <span class="fw-bold"
-                                style="color: black; font-size: 17px;position: relative;top: 10px">Quantitative
-                                and qualitative inspection</span><br>
-                        </p>
-                        <p style="font-size: 13px">
-                            <span>Qualitative and quantitative inspection of
-                                standard goods</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div style="position: relative; left: 50px; bottom: 60px"
-                class="row d-flex justify-content-center">
-                <div class="col-6" style="padding-left: 51px">
-                    <p
-                        class="fw-bold fs-2 d-flex justify-content-center align-items-center"
-                        style="padding-top: 60px">
-                        <span style="color:black">BSL International Shipping
-                            Company Approach</span>
-                    </p>
-                    <div class="first-underline">
-                        <hr>
-                    </div>
-                    <p style="padding: 23px">
-                        Blue Star International Shipping With over 5 decades of
-                        continuous and successful business in the field of
-                        International Trade, Transportation and Commerce and
-                        consisting of a multidisciplinary staff of expert
-                        logistics professionals of different nationalities,
-                        ready to serve everyone Comprehensive and professional
-                        in the whole supply chain process to all merchants and
-                        customers.
-                    </p>
-                    <div id="another-div2">
-                        <div
-                            class="row d-flex justify-content-center align-items-center">
-                            <div class="col-6">
-                                <img src="../resources/images/spyglass.png"
-                                    width="50px" height="50px" alt="spyglass">
-                                <p style="display: inline" class="ps-3">
-                                    <span class="fw-bold"
-                                        style="color: black; font-size: 17px;position: relative;top: 10px">Target</span><br>
+                        class="d-flex mt-5 p-5 flex-wrap justify-content-around"
+                        id="box">
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex ">
+                                <img src="../resources/images/ساعت-کاری.png"
+                                    width="35px"
+                                    height="35px" alt="calendar">
+                                <h5 class="fw-semibold">
+                                    working time
+                                </h5>
+                            </div>
+
+                            <div class="d-flex flex-column ">
+                                <p class="text-box">
+                                    <span class="special-text-box">Maritime
+                                        Office</span>
+                                    : Sunday to Thursday 9 to 15 - Closed on
+                                    Saturdays
                                 </p>
-                                <p style="font-size: 13px">
-                                    <span>Container Service from Iran to Persian
-                                        Gulf and Indian Ocean Ports</span>
+                                <p class="text-box">
+                                    <span class="special-text-box">Airline</span>
+                                    :
+                                    Saturday to Wednesday 9 to 15 - Thursday 9
+                                    to 12
+                                </p>
+                                <p class="text-box">
+                                    <span class="special-text-box">Bandar Abbas
+                                        Office
+                                    </span>
+                                    : Saturday to Wednesday 7:30 to 15:00 -
+                                    Thursday
+                                    7:30 to 12:00
                                 </p>
                             </div>
-                            <div class="col-6">
-                                <img src="../resources/images/mission.png"
-                                    width="50px" height="50px" alt="mission">
-                                <p style="display: inline" class="ps-3">
-                                    <span class="fw-bold"
-                                        style="color: black; font-size: 17px;position: relative;top: 6px">Mission</span><br>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex gap-1">
+                                <img src="../resources/images/ارتباط-با-ما.png"
+                                    width="35px"
+                                    height="35px"
+                                    alt="headphone">
+                                <h5 class="fw-semibold">
+                                    contact us
+                                </h5>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class="text-box">
+                                    <span class="special-text-box">Phone</span>
+                                    :
+                                    +9821-42287
                                 </p>
-                                <p style="font-size: 13px">
-                                    <span>Export and Import of Chemicals by
-                                        Flexi Tank ISO Tanks </span>
+                                <p class="text-box">
+                                    <span class="special-text-box">Fax</span> :
+                                    +9821-57806999
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex gap-1">
+                                <img src="../resources/images/ایمیل-1.png"
+                                    width="35px"
+                                    height="35px"
+                                    alt="email" />
+                                <h5 class="fw-semibold">
+                                    email
+                                </h5>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <p class="text-box">
+                                    <span class="special-text-box">info@bslshipping.com</span>
+                                </p>
+                                <p class="text-box">
+                                    <span class="special-text-box">info@bslexpress.net</span>
                                 </p>
                             </div>
                         </div>
                         <div
-                            class="row d-flex justify-content-center align-items-center">
-                            <div class="col-6">
-                                <img src="../resources/images/value.png"
-                                    width="50px" height="50px" alt="value">
-                                <p style="display: inline" class="ps-3">
-                                    <span class="fw-bold"
-                                        style="color: black; font-size: 17px;position: relative;top: 10px">Fundamental
-                                        values</span><br>
+                            class="d-flex align-items-center">
+                            <button class="fw-semibold btn" id="call-us">
+                                Call us
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container mt-4">
+                    <div class="d-flex flex-column">
+                        <br>
+                        <div
+                            class="d-flex justify-content-center">
+                            <span class="text text-muted fw-semibold fs-5">welcome</span>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p
+                                class="fw-bold fs-2">
+                                <span id="border_text">International Shipping
+                                    of Blue
+                                    Sea Stars</span>
+                            </p>
+
+                        </div>
+                        <div class="d-flex">
+                            <p class="fs-6 ">
+                                <span>Blue Star as one of the oldest
+                                    international
+                                    shipping companies with over two decades of
+                                    experience adhering to the principles of
+                                    freight
+                                    according to domestic and international laws
+                                    and
+                                    regulations and providing various services
+                                    has
+                                    managed to keep up with Become one of the
+                                    strongest
+                                    and most specialized shipping companies
+                                    internationally. Blue Star Sea Company is
+                                    one of the
+                                    specialized authorities in the field of sea
+                                    transportation, land transportation, air
+                                    transportation and rail transportation. You
+                                    can
+                                    choose one of the above ways to ship your
+                                    goods to
+                                    Iran or vice versa with the advice of our
+                                    experts.
+                                    BSL's professional staff is ready to help
+                                    your loved
+                                    ones</span>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="container text-center mt-5">
+                    <div class="d-flex gap-2 flex-wrap justify-content-center">
+                        <div
+                            class="d-flex justify-content-center align-items-center responsive__content"
+                            id="first-image">
+                            <a href="../HTML-Indexs/AirPlanePage.html">
+                                <img
+                                    src="../resources/images/آیکون-هواپیما-2.png"
+                                    width="120px" height="103px" alt="AirPlane">
+                                <p>
+                                    AirPlane
                                 </p>
-                                <p style="font-size: 13px">
-                                    <span>Groupage shipping by truck from Europe
-                                        and Asia to Iran and vice versa</span>
+                            </a>
+                        </div>
+                        <div
+                            class="d-flex justify-content-center align-items-center responsive__content"
+                            id="second-image">
+                            <a href="../HTML-Indexs/OceanTransportation.html">
+                                <img src="../resources/images/آیکون-کشتی-3.png"
+                                    width="120px" height="103px" alt="ship">
+                                <p>
+                                    Ocean transportation
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="d-flex justify-content-center align-items-center responsive__content"
+                            id="third-image">
+                            <a href="../HTML-Indexs/TruckTransportation.html">
+                                <img src="../resources/images/آیکون-قطار-12.png"
+                                    width="120px" height="103px">
+                                <p>
+                                    truck transportation
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="container mt-5">
+                    <div class="row row-cols-lg-3 row-cols-sm-2 align-items-center p-2">
+                        <div>
+                            <div class="d-flex align-items-end gap-3 mb-2">
+                                <img src="../resources/images/moshavere.png"
+                                    width="50px"
+                                    height="50px" alt="moshavereh">
+                                <h5>
+                                    Business
+                                    Consulting
+                                </h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Providing international export, import
+                                    and
+                                    trade advice tomanufacturers,
+                                    traders and traders on export and import
                                 </p>
                             </div>
-                            <div class="col-6">
-                                <img src="../resources/images/banner.png"
-                                    width="50px" height="50px" alt="banner">
-                                <p style="display: inline" class="ps-3">
-                                    <span class="fw-bold"
-                                        style="color: black; font-size: 17px;position: relative;top: 10px">Our
-                                        Slogan</span><br>
-                                </p>
-                                <p style="font-size: 13px">
-                                    <span>Air freight from all over the world to
-                                        Iran and vice versa </span>
+
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-end gap-3 mb-2">
+                                <img src="../resources/images/haml.png"
+                                    width="50px"
+                                    height="50px" alt="haml">
+                                <h5>
+                                    Transportation
+                                </h5>
+                            </div>
+                            <div> <p>
+                                    Shipment of goods by air, sea and land
+                                    in the
+                                    form of cargo and
+                                    containers
                                 </p>
                             </div>
                         </div>
+                        <div>
+                            <div class="d-flex align-items-end gap-3 mb-2">
+                                <img src="../resources/images/tarkhis.png"
+                                    width="50px"
+                                    height="50px" alt="tarkhis">
+                                <h5>
+                                    Clearance
+                                </h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Preparing and filing documents and
+                                    calculating
+                                    costs including tax,
+                                    commercial interest and customs duties
+                                    and other
+                                    facilities provided
+                                </p>
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-end gap-3 mb-2">
+                                <img src="../resources/images/kharid.png"
+                                    width="50px"
+                                    height="50px" alt="kharid">
+                                <h5>
+                                    Sourcing
+                                    and shopping
+                                </h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Finding a Foreign Supplier and
+                                    Supplier
+                                    (Supplier)
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-end gap-3 mb-2">
+                                <img src="../resources/images/door-to-door.png"
+                                    width="50px" height="50px"
+                                    alt="door-to-door">
+                                <h5>
+
+                                    Door
+                                    to Door Services
+                                </h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Carrying out all tasks of purchasing
+                                    shipment
+                                    and clearance from place
+                                    of
+                                    production to customer's desired place
+                                </p>
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-end gap-3 mb-2">
+                                <img src="../resources/images/gear.png"
+                                width="50px"
+                                height="50px" alt="gear">
+                            <h5>
+
+                                Quantitative
+                                and qualitative inspection
+                            </h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Qualitative and quantitative
+                                    inspection of
+                                    standard goods
+                                </p>
+                            </div>                          
+                        </div>
                     </div>
-                </div>
-                <div class="col-6" id="messageFormDiv">
-                    <div class="box">
-                        <form autocomplete="off">
-                            <p class="fw-medium fs-4"
-                                style="text-shadow: 1px 1px 55px #2836FFFF; margin: 0 auto">Send
-                                Your Message</p>
-                            <div class="inputBox">
-                                <input type="text" required="required">
-                                <span>Your Name</span>
-                                <i></i>
+                </section>
+                 <section class="container mt-5">
+                    <div
+                        class="row row-cols-lg-2 row-cols-md-1 row-cols-1">
+                        <div>
+                            <p
+                                class="fw-bold fs-2 d-flex justify-content-center align-items-center"
+                               >
+                                <span style="color:black">BSL International
+                                    Shipping
+                                    Company Approach</span>
+                            </p>
+                            <div class="first-underline">
+                                <hr>
                             </div>
-                            <div class="inputBox">
-                                <input type="email" required="required">
-                                <span>Email</span>
-                                <i></i>
+                            <p style="padding: 23px">
+                                Blue Star International Shipping With over 5
+                                decades of
+                                continuous and successful business in the field
+                                of
+                                International Trade, Transportation and Commerce
+                                and
+                                consisting of a multidisciplinary staff of
+                                expert
+                                logistics professionals of different
+                                nationalities,
+                                ready to serve everyone Comprehensive and
+                                professional
+                                in the whole supply chain process to all
+                                merchants and
+                                customers.
+                            </p>
+                            <div id="another-div2">
+                                <div
+                                    class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-6">
+                                        <img
+                                            src="../resources/images/spyglass.png"
+                                            width="50px" height="50px"
+                                            alt="spyglass">
+                                        <p class="ps-3">
+                                            <span class="fw-bold"
+                                                style="color: black; font-size: 17px; position: relative; bottom: 25px; left:28px;">Target</span>
+                                        </p>
+                                        <p style="font-size: 13px">
+                                            <span>Container Service from Iran to
+                                                Persian
+                                                Gulf and Indian Ocean Ports</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                            src="../resources/images/mission.png"
+                                            width="50px" height="50px"
+                                            alt="mission">
+                                        <p  class="ps-3">
+                                            <span class="fw-bold"
+                                                style="color: black; font-size: 17px;position: relative; bottom: 25px; left:38px;">Mission</span>
+                                        </p>
+                                        <p style="font-size: 13px">
+                                            <span>Export and Import of Chemicals
+                                                by
+                                                Flexi Tank ISO Tanks </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-6">
+                                        <img src="../resources/images/value.png"
+                                            width="50px" height="50px"
+                                            alt="value">
+                                        <p  class="ps-3">
+                                            <span class="fw-bold"
+                                                style="color: black; font-size: 17px;position: relative; bottom: 25px; left:30px;">Fundamental
+                                                values</span>
+                                        </p>
+                                        <p style="font-size: 13px">
+                                            <span>Groupage shipping by truck
+                                                from Europe
+                                                and Asia to Iran and vice versa</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <img
+                                            src="../resources/images/banner.png"
+                                            width="50px" height="50px"
+                                            alt="banner">
+                                        <p class="ps-3">
+                                            <span class="fw-bold"
+                                                style="color: black; font-size: 17px;position: relative; bottom: 25px; left:40px;">Our
+                                                Slogan</span><br>
+                                        </p>
+                                        <p style="font-size: 13px">
+                                            <span>Air freight from all over the
+                                                world to
+                                                Iran and vice versa </span>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="inputBox select-container">
-                                <select class="select-box">
-                                    <option value selected disabled>About What
-                                        Service ? </option>
-                                    <option value="saab">Maritime Transportation</option>
-                                    <option value="mercedes">International Air
-                                        Freight Post</option>
-                                    <option value="audi">Ground transportation</option>
-                                    <option value="audi">Truck transportation</option>
-                                </select>
-                                <div class="icon-container">
+                        </div>
+                        <div class="d-flex justify-content-center mt-5" id="messageFormDiv">
+                            <div class="box">
+                                <form autocomplete="off">
+                                    <p class="fw-medium fs-4"
+                                        style="text-shadow: 1px 1px 55px #2836FFFF; margin: 0 auto">Send
+                                        Your Message</p>
+                                    <div class="inputBox">
+                                        <input type="text" required="required">
+                                        <span>Your Name</span>
+                                        <i></i>
+                                    </div>
+                                    <div class="inputBox">
+                                        <input type="email" required="required">
+                                        <span>Email</span>
+                                        <i></i>
+                                    </div>
+                                    <div class="inputBox select-container">
+                                        <select class="select-box">
+                                            <option value selected disabled>About
+                                                What
+                                                Service ? </option>
+                                            <option value="saab">Maritime
+                                                Transportation</option>
+                                            <option value="mercedes">International
+                                                Air
+                                                Freight Post</option>
+                                            <option value="audi">Ground
+                                                transportation</option>
+                                            <option value="audi">Truck
+                                                transportation</option>
+                                        </select>
+                                        <div class="icon-container">
+                                            <img
+                                                src="../resources/images/caret-down-solid.svg"
+                                                width="50%" height="50%">
+                                        </div>
+                                    </div>
+                                    <div
+                                        style="margin-top: 35px;margin-left: auto;margin-right: auto">
+                                        <textarea id="textAreaInMessageForm"
+                                            placeholder="Enter Your Message ..."></textarea>
+                                        <i></i>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <input type="submit" value="Send"
+                                            class="submitColor">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- <section>
+
+                    <div id="bestChoiseContainer" class="container-fluid">
+                        <div>
+                            <p
+                                class="fw-bold fs-2 d-flex justify-content-center align-items-center"
+                                style="padding-top: 60px">
+                                <span style="color:white">Why is BSL Holding
+                                    your best
+                                    choice for international shipping? </span>
+                            </p>
+                            <div id="first-underline">
+                                <hr>
+                            </div>
+                        </div>
+                        <div style="position: relative; left: 111px;top: 75px">
+                            <div
+                                class="row d-flex justify-content-center align-items-center"
+                                style="margin: 0 auto">
+                                <div class="col-6">
                                     <img
-                                        src="../resources/images/caret-down-solid.svg"
-                                        width="50%" height="50%">
+                                        src="../resources/images/آیکون-کانتینر-6.png"
+                                        width="50px" height="50px"
+                                        alt="containerIcon">
+                                    <p style="display: inline" class="ps-3">
+                                        <span class="fw-bold"
+                                            style="color: white; font-size: 17px;position: relative;top: 10px">Containers</span><br>
+                                    </p>
+                                    <p style="font-size: 13px">
+                                        <span style="color: white">Blue Star
+                                            Company has
+                                            5500 TEU containers in 20- and
+                                            40-foot
+                                            sizes, Flat rack and Open top</span>
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <img
+                                        src="../resources/images/آیکون-تعداد-پرسنل-4.png"
+                                        width="55px" height="45px" alt="Employs">
+                                    <p style="display: inline" class="ps-3">
+                                        <span class="fw-bold"
+                                            style="color: white; font-size: 17px;position: relative;top: 6px">Person
+                                            employed in Iranian offices</span><br>
+                                    </p>
+                                    <p style="font-size: 13px">
+                                        <span style="color: white">Blue Star is
+                                            proud to
+                                            directly hire and collaborate with
+                                            100
+                                            people in its Iranian offices.
+                                        </span>
+                                    </p>
                                 </div>
                             </div>
                             <div
-                                style="margin-top: 35px;margin-left: auto;margin-right: auto">
-                                <textarea id="textAreaInMessageForm"
-                                    placeholder="Enter Your Message ..."></textarea>
-                                <i></i>
+                                class="row d-flex justify-content-center align-items-center"
+                                style="position: relative;left:4px;top: 45px">
+                                <div class="col-6">
+                                    <img
+                                        src="../resources/images/آیکون-مراکز-اداری-1.png"
+                                        width="55px" height="45px"
+                                        alt="iconMarakezEdari">
+                                    <p style="display: inline" class="ps-3">
+                                        <span class="fw-bold"
+                                            style="color: white; font-size: 17px;position: relative;top: 10px">Offices
+                                            around the world</span><br>
+                                    </p>
+                                    <p style="font-size: 13px">
+                                        <span style="color: white">Blue Star
+                                            Company has
+                                            3 offices in Iran, 1 office in
+                                            Emirates and
+                                            3 offices in China for your
+                                            convenience.</span>
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <img
+                                        src="../resources/images/آیکون-وزن-سنگین-4.png"
+                                        width="60px" height="40px" alt="iconKG">
+                                    <p style="display: inline" class="ps-3">
+                                        <span class="fw-bold"
+                                            style="color: white; font-size: 17px;position: relative;top: 10px">Tons
+                                            of cargo volume</span><br>
+                                    </p>
+                                    <p style="font-size: 13px">
+                                        <span style="color: white">About 15
+                                            tonnes per
+                                            month is shipped by door and door to
+                                            door by
+                                            blue sea star. </span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <input type="submit" value="Send"
-                                    class="submitColor">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div id="bestChoiseContainer" class="container-fluid">
-                <div>
-                    <p
-                        class="fw-bold fs-2 d-flex justify-content-center align-items-center"
-                        style="padding-top: 60px">
-                        <span style="color:white">Why is BSL Holding your best
-                            choice for international shipping? </span>
-                    </p>
-                    <div id="first-underline">
-                        <hr>
-                    </div>
-                </div>
-                <div style="position: relative; left: 111px;top: 75px">
-                    <div
-                        class="row d-flex justify-content-center align-items-center"
-                        style="margin: 0 auto">
-                        <div class="col-6">
-                            <img src="../resources/images/آیکون-کانتینر-6.png"
-                                width="50px" height="50px" alt="containerIcon">
-                            <p style="display: inline" class="ps-3">
-                                <span class="fw-bold"
-                                    style="color: white; font-size: 17px;position: relative;top: 10px">Containers</span><br>
-                            </p>
-                            <p style="font-size: 13px">
-                                <span style="color: white">Blue Star Company has
-                                    5500 TEU containers in 20- and 40-foot
-                                    sizes, Flat rack and Open top</span>
-                            </p>
-                        </div>
-                        <div class="col-6">
-                            <img src="../resources/images/آیکون-تعداد-پرسنل-4.png"
-                                width="55px" height="45px" alt="Employs">
-                            <p style="display: inline" class="ps-3">
-                                <span class="fw-bold"
-                                    style="color: white; font-size: 17px;position: relative;top: 6px">Person
-                                    employed in Iranian offices</span><br>
-                            </p>
-                            <p style="font-size: 13px">
-                                <span style="color: white">Blue Star is proud to
-                                    directly hire and collaborate with 100
-                                    people in its Iranian offices. </span>
-                            </p>
                         </div>
                     </div>
-                    <div
-                        class="row d-flex justify-content-center align-items-center"
-                        style="position: relative;left:4px;top: 45px">
-                        <div class="col-6">
-                            <img src="../resources/images/آیکون-مراکز-اداری-1.png"
-                                width="55px" height="45px"
-                                alt="iconMarakezEdari">
-                            <p style="display: inline" class="ps-3">
-                                <span class="fw-bold"
-                                    style="color: white; font-size: 17px;position: relative;top: 10px">Offices
-                                    around the world</span><br>
-                            </p>
-                            <p style="font-size: 13px">
-                                <span style="color: white">Blue Star Company has
-                                    3 offices in Iran, 1 office in Emirates and
-                                    3 offices in China for your convenience.</span>
-                            </p>
-                        </div>
-                        <div class="col-6">
-                            <img src="../resources/images/آیکون-وزن-سنگین-4.png"
-                                width="60px" height="40px" alt="iconKG">
-                            <p style="display: inline" class="ps-3">
-                                <span class="fw-bold"
-                                    style="color: white; font-size: 17px;position: relative;top: 10px">Tons
-                                    of cargo volume</span><br>
-                            </p>
-                            <p style="font-size: 13px">
-                                <span style="color: white">About 15 tonnes per
-                                    month is shipped by door and door to door by
-                                    blue sea star. </span>
-                            </p>
+                </section> --> 
+                <!-- <section>
+                    <div class="container-fluid"
+                        style="margin-top: 35px;height: 100px">
+                        <div class="row">
+                            <h2 class="fw-bold"
+                                style="color: black;position: relative;bottom: 90px;left: 75px">We
+                                are ready to ship your products to anywhere in
+                                the world
+                                !</h2>
+                            <p
+                                style="font-size: 13px;position: relative;bottom: 80px;left: 75px">Sea
+                                , Air and Rail service, deliver products to all
+                                over the
+                                world in the fastest possible time and at the
+                                lowest
+                                cost </p>
+                            <button class="btn btn-primary fw-semibold"
+                                style="width: 12%; height: 60px; position: relative; bottom: 150px; left: 1205px">Contact
+                                Us</button>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="container-fluid" style="margin-top: 35px;height: 100px">
-                <div class="row">
-                    <h2 class="fw-bold"
-                        style="color: black;position: relative;bottom: 90px;left: 75px">We
-                        are ready to ship your products to anywhere in the world
-                        !</h2>
-                    <p
-                        style="font-size: 13px;position: relative;bottom: 80px;left: 75px">Sea
-                        , Air and Rail service, deliver products to all over the
-                        world in the fastest possible time and at the lowest
-                        cost </p>
-                    <button class="btn btn-primary fw-semibold"
-                        style="width: 12%; height: 60px; position: relative; bottom: 150px; left: 1205px">Contact
-                        Us</button>
-                </div>
-            </div>
+                </section> -->
+
+            </section>
+
         </main>
         <!-- Footer -->
         <footer class="text-center text-lg-start footer">

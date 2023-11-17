@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url(../Icon/fontawesome-pro-6.1.1-web/css/all.min.css);
 *{
-    direction: ltr;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 a {
@@ -16,6 +17,46 @@ i {
 body {
     max-height: 100vh;
 }
+.navbar {
+    background-color: darkblue !important;
+}
+.nav-link {
+    color: #ffffff;
+    padding-right: 10px !important;
+    position: relative;
+}
+
+.nav-link::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #16f407;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.nav-link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+.nav-link:focus {
+    color: yellow;
+}
+.nav__Logo {
+    width: 150px;
+    height: 100px;
+    border-radius: 20%;
+    border: 1px solid white;
+}
 .dropdown-item {
     color: rgba(255, 255, 255, 0.55);
 }
@@ -23,8 +64,40 @@ body {
     background-color: #212529;
     color: #ffffff;
 }
+.dropdown-item  {
+    color: #ffffff;
+    padding-right: 10px !important;
+    position: relative;
+    
+}
+
+.dropdown-item::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #16f407;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.dropdown-item:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.dropdown-item:hover {
+    color: #ffffff;
+    background-color: darkblue;
+}
 .dropdown-menu {
-    background-color:#212529;
+    background-color:darkblue;
+    border: 2px solid rgb(233, 238, 225);
+
 }
 .footer {
     background-color:#1C1C1C;
@@ -54,33 +127,7 @@ body {
 .fa-search {
     color: #fff;
 }
-a {
-    color: #18272F;
-    position: relative;
-    text-decoration: none;
-  }
-  
-  a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: #0ba3f6;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
-  
-  a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-  }
-  .nav-link:hover {
-    color: #ffffff;
-  }
+
 .navbar-items-content{
     font-size: 16px;
     padding-top: 16px;
@@ -137,11 +184,7 @@ a {
 }
 #box {
     color: #fff;
-    width: 85%;
-    height: 265px;
     background-color: #15155f;
-    padding: 10px;
-    margin: 50px auto;
     border-radius: 15px;
     box-shadow: 1px 1px 18px #0dcaf0;
 }
@@ -158,21 +201,10 @@ a {
     height: 65px;
     font-size: 19px;
 }
-#explain-text{
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 9px;
+#border_text {
+    border-bottom: 4px solid darkblue;
 }
-#underline{
-    background-color: #000a50;
-    width: 4%;
-    height: 4px;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0 auto;
-}
+
 #first-image{
     width: 330px;
     height: 440px;
@@ -224,26 +256,20 @@ a {
 #third-image:hover{
     opacity: 75%;
 }
-#another-div{
+/* #another-div{
     width: 100%;
     height: 560px;
     margin-top: 70px;
     background-image: url("../resources/images/world-map.png");
     padding-left: 52px;
     padding-right: 43px;
-}
+} */
 #messageFormDiv
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-    margin-bottom: 160px;
 }
 #messageFormDiv .box
 {
@@ -436,14 +462,7 @@ a {
     margin-left: 3px;
 }
 #another-div2{
-    width: 100%;
-    height: 560px;
-    margin-top: 70px;
     background-image: url("../resources/images/world-map.png");
-    padding-left: 52px;
-    padding-right: 43px;
-    position: relative;
-    bottom: 25px;
 }
 #bestChoiseContainer{
     width: 100%;
@@ -458,4 +477,17 @@ a {
     height: 4px;
     border-radius: 5px;
     margin-left: 652px;
+}
+.responsive__content a {
+ font-size: 20px;
+ color: #f8f8f8;
+}
+.responsive__content a:hover {
+    color: #000;
+}
+@media (max-width:993px) {
+    .responsive__content{
+        width: 100% !important;
+        
+    }
 }
