@@ -88,6 +88,15 @@ a {
 .text__color>li {
     color: #0dcaf0 !important;
 }
+.fa-youtube {
+    font-size: 20px;
+}
+.fa-linkedin {
+    font-size: 20px;
+}
+.fa-pinterest {
+    font-size: 20px;
+}
 .fa-youtube:hover {
     color: red;
 }
